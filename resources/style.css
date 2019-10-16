@@ -1,0 +1,77 @@
+body{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+/*
+Header menu styling
+ */
+.header-menu{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    background-color: #1A1A1D;
+    width: 100%;
+    height: 3.2rem;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+}
+.header-menu .menu-btn{
+    color: #EDF5D1;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    display: inline-block;
+    padding: 1rem 0;
+    width: 7rem;
+    cursor: pointer;
+}
+.header-menu .logo{
+    position: absolute;
+    left: 0;
+    object-fit: contain;
+    padding: 0.6rem 2rem 0 0.5rem;
+}
+#logo-img{
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.3s ease;
+}
+.header-menu .menu-btn:not(.no-hover):hover{
+    background-color: #252482;
+}
+.header-menu .logo:hover{
+    background-color: #1A1A1D;
+}
+#logo-img:hover{
+    transform: scale(1.5);
+}
+.active{
+    background-color: #3500D3;
+}
+/*
+Content section styling
+ */
+.section-container{
+    background-color: #F2F2F2F2;
+    margin-top: 3.2rem;
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.area-code{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.area-hide{
+    display: none;
+}

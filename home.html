@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Player</title>
+
+    <script type="text/javascript" src="./jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="./jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="resources/scripts.js"></script>
+
+    <link rel="stylesheet" href="./jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="resources/style.css">
+</head>
+<body>
+    <header>
+        <ul class="header-menu">
+            <li class="logo"><a href="https://github.com/SFEstrada" target="_blank"><img src="./resources/cplogo.png" id="logo-img"></a></li>
+            <li class="menu-btn active" id="html-btn">HTML</li>
+            <li class="menu-btn active" id="css-btn">CSS</li>
+            <li class="menu-btn active" id="js-btn">JavaScript</li>
+            <li class="menu-btn active" id="output-btn">Output</li>
+        </ul>
+    </header>
+    <section>
+        <div class="section-container">
+            <textarea class="area-code" id="area-html"><h1>Hello World!</h1></textarea>
+            <textarea class="area-code" id="area-css">h1{color: blue;}</textarea>
+            <textarea class="area-code" id="area-javascript"></textarea>
+            <iframe id="area-output"></iframe>
+        </div>
+    </section>
+    <footer>
+        <!-- Add some credits! -->
+    </footer>
+</body>
+</html>
